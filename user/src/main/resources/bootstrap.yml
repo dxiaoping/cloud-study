@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        enabled: true
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        namespace: 45de849c-2f5f-48c8-8095-717907d41b3a
+
+  profiles:
+    active: dev
+person:
+  name: 小平
+  birthday: 1999-12-12 00:00:00
+  gender: 男
