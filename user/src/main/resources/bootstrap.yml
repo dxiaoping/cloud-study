@@ -3,9 +3,9 @@ spring:
     nacos:
       config:
         enabled: true
-        server-addr: 127.0.0.1:8848
+        server-addr: 47.101.72.84:8848
         file-extension: yml
-        namespace: 45de849c-2f5f-48c8-8095-717907d41b3a
+        namespace: 60b5ff75-337c-4586-b92c-214ad258ec72
 
   profiles:
     active: dev

@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("user")
-@RefreshScope
+//@RefreshScope
 @Slf4j
 public class UserController {
 
@@ -46,7 +46,6 @@ public class UserController {
     public User getUser(){
         log.info("获取配置信息：{}",name);
         log.info("获取配置信息-用户：{}",user);
-        User user1 = user;
         return user;
     }
 
