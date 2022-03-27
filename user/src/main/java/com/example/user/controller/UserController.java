@@ -23,18 +23,18 @@ public class UserController {
 
     @Autowired
     private RestTemplate restTemplate;
-    @Autowired
-    GoodsService goodsService;
+//    @Autowired
+//    GoodsService goodsService;
 
-    @PostMapping("firstUser")
-    public Object firstUser(){
-//        String url = "http://cloud-goods/goods/listGoods";
-//        Object result = restTemplate.getForObject(url,String.class);
-        Object result = goodsService.listGoods();
-
-
-        return result;
-    }
+//    @PostMapping("firstUser")
+//    public Object firstUser(){
+////        String url = "http://cloud-goods/goods/listGoods";
+////        Object result = restTemplate.getForObject(url,String.class);
+//        Object result = goodsService.listGoods();
+//
+//
+//        return result;
+//    }
 
     @Autowired
     User user;
